@@ -1,0 +1,82 @@
+/* TODO:
+background-color: #213c6e;
+*/
+
+body {
+  margin: 15em 0 0 0;
+  font-family: "Oswald";
+  text-align: center;
+  background-color: #0e4eb5;
+  color: white;
+  width: 100%;
+}
+
+.top-container {
+  text-align: center;
+}
+
+#top {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+#hamburger {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+.middle-container {
+  margin: 5% 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+#middle-content {
+  display: inline-flex;
+  width: 75%;
+  background-color: black;
+  border-radius: 15px;
+}
+
+#normal-img {
+  flex: 1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#normal-p {
+  flex: 1;
+  margin: auto auto;
+}
+
+#inversed-img {
+  flex: 1;
+  order: 1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#inversed-p {
+  flex: 1;
+  order: 2;
+  margin: auto auto;
+}
+
+@media only screen and (max-width: 1450px) {
+
+
+}
